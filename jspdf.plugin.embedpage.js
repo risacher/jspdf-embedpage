@@ -24,6 +24,10 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  * ====================================================================
  */
+
+
+
+
 ;(function(API) {
   'use strict';
 
@@ -121,4 +125,5 @@
     out('Q'); // restore graphics state
     return this;
   };
-})(typeof (jsPDF) === 'undefined' ? jspdf.jsPDF.API : jsPDF.API);
+})(typeof (require) !== 'undefined' ? require('jspdf').jsPDF.API : jspdf.jsPDF.API);
+
