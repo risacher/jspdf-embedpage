@@ -1,4 +1,7 @@
 {
+  "name": "jspdf-embedpage",
+  "version": "1.0.0",
+  "main": "jspdf.plugin.embedpage.js",
   "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.2",
